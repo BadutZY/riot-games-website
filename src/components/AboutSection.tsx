@@ -56,27 +56,6 @@ const AboutSection = () => {
               The annual League of Legends World Championship features qualified esports teams from 12 international leagues.
               Worlds is the most widely viewed and followed esports tournament, and it's among the biggest and most popular gaming and sporting events in the world.
             </p>
-
-            {/* <div className="grid grid-cols-3 gap-6 mt-10">
-              {[
-                { value: '15+', label: 'Tahun Pengalaman' },
-                { value: '500+', label: 'Klien Puas' },
-                { value: '50+', label: 'Penghargaan' },
-              ].map((stat, index) => (
-                <motion.div
-                  key={stat.label}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={isInView ? { opacity: 1, y: 0 } : {}}
-                  transition={{ duration: 0.5, delay: 0.4 + index * 0.1 }}
-                  className="text-center"
-                >
-                  <div className="text-3xl lg:text-4xl font-bold text-primary font-display">
-                    {stat.value}
-                  </div>
-                  <div className="text-sm text-muted-foreground mt-1">{stat.label}</div>
-                </motion.div>
-              ))}
-            </div> */}
           </motion.div>
         </div>
       </div>
